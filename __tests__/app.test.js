@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 import pool from '../lib/utils/pool.js';
 import setup from '../data/setup.js';
 import request from 'supertest';
@@ -94,5 +95,21 @@ describe('API routes', () => {
       .send(movie);
     expect(res.body).toEqual(movie);
   });
+
+  it('deletes a movie via DELETE', async () => {
+    const movie = await Movie.insert({
+      title: 'Dawn of the Dead',
+      genre: 'Zombie',
+      year: 1978,
+      director: 'George A. Romero',
+      country: 'US',
+      url: '/movies/dawn.png'
+    });
+
+    const res = await request(app).delete(`/api/movies/${movie.id}`)
+      .send(movie);
+    expect(res.body).toEqual(movie);
+  });
+
 });
 
