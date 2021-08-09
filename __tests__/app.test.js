@@ -3,11 +3,8 @@ import setup from '../data/setup.js';
 import request from 'supertest';
 import app from '../lib/app.js';
 import { execSync } from 'child_process';
-import Movie from '../lib/models/movie.js';
 
 describe('API routes', () => {
-
-  const agent = request.agent(app);
 
   beforeAll(async () => {
     await setup(pool);
