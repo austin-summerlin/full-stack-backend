@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import client from '../lib/utils/client.js';
 import movies from './movies.js';
 
