@@ -6,5 +6,5 @@ CREATE TABLE movies (
   year INTEGER NOT NULL,
   director TEXT NOT NULL,
   country TEXT NOT NULL,
-  url TEXT NOT NULL
+  image TEXT NOT NULL,
 );
