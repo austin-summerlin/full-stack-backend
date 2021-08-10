@@ -5,7 +5,7 @@ const movies = [
     year: 1978,
     director: 'George A. Romero',
     country: 'US',
-    url: '/movies/dawn.png'
+    image: '/movies/dawn.png'
   },
 
   {
@@ -14,7 +14,7 @@ const movies = [
     year: 1977,
     director: 'Dario Argento',
     country: 'Italy',
-    url: '/movies/suspiria.png'
+    image: '/movies/suspiria.png'
   },
 
   {
@@ -23,7 +23,7 @@ const movies = [
     year: 1980,
     director: 'Sean S. Cunningham',
     country: 'US',
-    url: '/movies/friday.png'
+    image: '/movies/friday.png'
   },
 
   {
@@ -32,7 +32,7 @@ const movies = [
     year: 1984,
     director: 'Wes Craven',
     country: 'US',
-    url: '/movies/nightmare.png'
+    image: '/movies/nightmare.png'
   },
 
   {
@@ -41,7 +41,7 @@ const movies = [
     year: 2014,
     director: 'Ana Lily Amirpour',
     country: 'Iran',
-    url: '/movies/girl.png'
+    image: '/movies/girl.png'
   },
 
   {
@@ -50,7 +50,7 @@ const movies = [
     year: 2008,
     director: 'Tomas Alfredson',
     country: 'Sweeden',
-    url: '/movies/let.png'
+    image: '/movies/let.png'
   },
 
   {
@@ -59,7 +59,7 @@ const movies = [
     year: 2014,
     director: 'Jennifer Kent',
     country: 'Australia',
-    url: '/movies/babadook.png'
+    image: '/movies/babadook.png'
   },
 
   {
@@ -68,7 +68,7 @@ const movies = [
     year: 1980,
     director: 'Ruggero Deodato',
     country: 'Italy',
-    url: '/movies/cannibal.png'
+    image: '/movies/cannibal.png'
   }
 ];
 
