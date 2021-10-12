@@ -8,7 +8,7 @@ const movies = [
     synopsis: 'A biker gang discovers the secret becoming the undead and terrorize an English village',
     length: '1hr25min',
     country: 'UK',
-    image: '/movies/psychomania'
+    image: '/movies/psychomania.png'
   },
   {
     title: 'Frankenhooker',
@@ -19,7 +19,7 @@ const movies = [
     synopsis: 'A sociopath kills sex workers in an attempt to build his deceased girlfriend a new body.',
     length: '1hr25min',
     country: 'US',
-    image: '/movies/frankenhooker'
+    image: '/movies/frankenhooker.png'
   },
   {
     title: 'The Devil&#39s Rain',
@@ -30,7 +30,7 @@ const movies = [
     synopsis: 'Farmers fight Satanists in a battle for the Devil&#39s Rain. Anton LaVey oversaw the ritual scenes for realism and appears. Also the origin of the Michael Myers mask from John Carpenter&#39s Halloween.',
     length: '1hr26min',
     country: 'US',
-    image: '/movies/devilsrain'
+    image: '/movies/devilsrain.png'
   },
   {
     title: 'Baker, Butcher, Nightmare Maker',
@@ -41,7 +41,7 @@ const movies = [
     synopsis: 'A teen slowly becomes aware of his aunt&#39s sinister intentions.',
     length: '1hr36min',
     country: 'US',
-    image: '/movies/bakerbutcher'
+    image: '/movies/bakerbutcher.png'
   },
   {
     title: 'Elivra: Mistress of the Dark',
@@ -52,7 +52,7 @@ const movies = [
     synopsis: 'Elvira moves to a smalltown to recieve a mystery inheritance.',
     length: '1hr36min',
     country: 'US',
-    image: '/movies/elivra'
+    image: '/movies/elivra.png'
   },
   {
     title: 'The Slumber Party Massacre',
@@ -63,18 +63,18 @@ const movies = [
     synopsis: 'A serial killer stalks high school students at a slumber party.',
     length: '1hr17min',
     country: 'US',
-    image: '/movies/slumberparty'
+    image: '/movies/slumberparty.png'
   },
   {
     title: 'The Mummy',
     genre: ['Classic', 'Monster'],
     year: 1932,
     director: 'Karl Freund',
-    writer: [''],
+    writer: ['Nina Wilcox Putnam', 'Richard Schayer'],
     synopsis: 'Colonizers steal the property of an Egyptian priest.',
     length: '1hr13min',
     country: 'US',
-    image: '/movies/mummy'
+    image: '/movies/mummy.png'
   },
   {
     title: 'Society',
@@ -85,7 +85,7 @@ const movies = [
     synopsis: 'Rich kid with it all becomes paranoid that his family is in a sex cult',
     length: '1hr39min',
     country: 'US',
-    image: '/movies/society'
+    image: '/movies/society.png'
   },
   {
     title: 'Night of the Demons',
@@ -96,7 +96,7 @@ const movies = [
     synopsis: 'Halloween party thrown by the weird goth girl in a haunted funeral home, what could go wrong.',
     length: '1hr30min',
     country: 'US',
-    image: '/movies/nightofthedemons'
+    image: '/movies/nightofthedemons.png'
   },
   {
     title: 'Cat Calls',
@@ -107,7 +107,7 @@ const movies = [
     synopsis: 'A sexual predator becomes the prey.',
     length: '9min',
     country: 'Ireland',
-    image: '/movies/catcalls'
+    image: '/movies/catcalls.png'
   },
   {
     title: 'Chopping Mall',
@@ -118,7 +118,7 @@ const movies = [
     synopsis: 'A group of teenagers who gatherd in a furniture store to have sex are terroized by malfunctioning Security Bots.',
     length: '1hr17min',
     country: 'US',
-    image: '/movies/choppingmall'
+    image: '/movies/choppingmall.png'
   },
   {
     title: 'Dawn of the Dead',
