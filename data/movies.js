@@ -4,7 +4,7 @@ const movies = [
     genre: ['Occultism', 'Satanism'],
     year: 1973,
     director: 'Don Sharp',
-    writer: ['Arnaud d#&39Usseau', 'Julian Zimet'],
+    writer: ['Arnaud d\'Usseau', 'Julian Zimet'],
     synopsis: 'A biker gang discovers the secret becoming the undead and terrorize an English village',
     length: '1hr25min',
     country: 'UK',
@@ -22,12 +22,12 @@ const movies = [
     image: '/movies/frankenhooker.png'
   },
   {
-    title: 'The Devil&#39s Rain',
+    title: 'The Devil\'s Rain',
     genre: ['Satanism'],
     year: 1975,
     director: 'Robert Fuest',
     writer: ['Gabe Essoe', 'James Ashton', 'Gerald Hopman'],
-    synopsis: 'Farmers fight Satanists in a battle for the Devil&#39s Rain. Anton LaVey oversaw the ritual scenes for realism and appears. Also the origin of the Michael Myers mask from John Carpenter&#39s Halloween.',
+    synopsis: 'Farmers fight Satanists in a battle for the Devil\'s Rain. Anton LaVey oversaw the ritual scenes for realism and appears. Also the origin of the Michael Myers mask from John Carpenter\'s Halloween.',
     length: '1hr26min',
     country: 'US',
     image: '/movies/devilsrain.png'
@@ -38,7 +38,7 @@ const movies = [
     year: 1981,
     director: 'William Asher',
     writer: ['Steve Breimer', 'Alan Jay Glueckman', 'Boon Collins'],
-    synopsis: 'A teen slowly becomes aware of his aunt&#39s sinister intentions.',
+    synopsis: 'A teen slowly becomes aware of his aunt\'s sinister intentions.',
     length: '1hr36min',
     country: 'US',
     image: '/movies/bakerbutcher.png'
@@ -52,7 +52,7 @@ const movies = [
     synopsis: 'Elvira moves to a smalltown to recieve a mystery inheritance.',
     length: '1hr36min',
     country: 'US',
-    image: '/movies/elivra.png'
+    image: '/movies/elvira.png'
   },
   {
     title: 'The Slumber Party Massacre',
@@ -309,7 +309,7 @@ const movies = [
     year: '1922',
     director: 'F.W. Murnau',
     writer: ['Henrik Galeen', 'Bram Stoker'],
-    synopsis: 'Count Orlock wishes to buy a new estate and becomes smitten with the owner&#39s wife',
+    synopsis: 'Count Orlock wishes to buy a new estate and becomes smitten with the owner\'s wife',
     length: '1hr34min',
     country: 'Germany',
     image: '/movies/nosferatu.png'
@@ -318,7 +318,7 @@ const movies = [
     title: 'The Return of The Living Dead',
     genre: ['Zombie'],
     year: '1985',
-    director: 'Dan O&#39Bannon',
+    director: 'Dan O\'Bannon',
     writer: ['Rudy Ricci', 'John A. Russo', 'Russell Streiner'],
     synopsis: 'Warehouse workers accidentaly open military biohazard containers containing zombies. Meanwhile a group of punks party in the cemetary next door.',
     length: '1hr31min',
