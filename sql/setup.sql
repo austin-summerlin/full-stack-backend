@@ -7,7 +7,7 @@ CREATE TABLE movies (
   director TEXT NOT NULL,
   country TEXT NOT NULL,
   image TEXT NOT NULL,
-  writer TEXT NULL,
-  length TEXT NULL,
-  synopsis TEXT NULL
+  writer TEXT NOT NULL,
+  length TEXT NOT NULL,
+  synopsis TEXT NOT NULL
 );
