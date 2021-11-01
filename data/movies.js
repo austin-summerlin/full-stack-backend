@@ -1,11 +1,176 @@
 const movies = [
   {
+    title: 'Halloween Kills',
+    genre: 'Slasher',
+    year: 2021,
+    director: 'David Gordon Green',
+    writer: 'John Carpenter, Debra Hill, Scott Teems',
+    synopsis: 'Michael Meyers returns and contiunues to terrorize Laurie Strode. The town of Haddonfield rises up to stop him.',
+    length: '1hr45min',
+    country: 'US',
+    image: '/movies/halloweenkills.png'
+  },
+  {
+    title: 'Halloween',
+    genre: 'Slasher',
+    year: 1978,
+    director: 'John Carpenter',
+    writer: 'John Carpenter, Debra Hill',
+    synopsis: 'Michael Myers escapes from a mental hospital and returns to his home town 15 years after murdering his sister on Halloween night.',
+    length: '1hr31min',
+    country: 'US',
+    image: '/movies/halloween.png'
+  },
+  {
+    title: 'Maneater of Hydra',
+    genre: 'Sci-Fi',
+    year: 1967,
+    director: 'Ernst Ritter von Theumer',
+    writer: 'Ernst Ritter von Theumer, Mel Welles',
+    synopsis: 'Tourists visit an Island where a mad scientist has been doing experiments with carnivorous plants.',
+    length: '1hr28min',
+    country: 'Italy',
+    image: '/movies/maneater.png'
+  },
+  {
+    title: 'Messiah of Evil',
+    genre: 'Occultism, Cults, Zombie',
+    year: 1973,
+    director: 'Willard Huyck, Gloria Katz',
+    writer: 'Willard Huyck, Gloria Katz',
+    synopsis: 'A woman heads to a seaside town in search for her father where a mysterious undead cult has taken over.',
+    length: '1hr30min',
+    country: 'US',
+    image: '/movies/messiahofevil.png'
+  },
+  {
+    title: 'Vampyres',
+    genre: 'Vampire, LGBTQ',
+    year: 1974,
+    director: 'José Ramón Larraz',
+    writer: 'José Ramón Larraz, Diana Daubeney, Thomas Owen',
+    synopsis: 'Two mysterious women lure men into a victorian mansion in order to satiate their hunger for blood.',
+    length: '1hr27min',
+    country: 'UK',
+    image: '/movies/vampyres.png'
+  },
+  {
+    title: 'Fear Street: Part Three - 1666',
+    genre: 'Slasher',
+    year: 2021,
+    director: 'Leigh Janiak',
+    writer: 'R.L. Stine, Kyle Killen, Phil Graziadei',
+    synopsis: 'The origins of the curse of Sarah Fier\'s is revealed.',
+    length: '1hr54min',
+    country: 'US',
+    image: '/movies/fearstreet1666.png'
+  },
+  {
+    title: 'Fear Street: Part Two - 1978',
+    genre: 'Slasher',
+    year: 2021,
+    director: 'Leigh Janiak',
+    writer: 'R.L. Stine, Leigh Janiak, Zak Olkewicz,  Phil Graziadei',
+    synopsis: 'In 1978 Camp Nightwing is terrorized by a mysterious killer.',
+    length: '1hr49min',
+    country: 'US',
+    image: '/movies/fearstreet1978.png'
+  },
+  {
+    title: 'Fear Street: Part One - 1994',
+    genre: 'Slasher',
+    year: 2021,
+    director: 'Leigh Janiak',
+    writer: 'R.L. Stine, Kyle Killen, Phil Graziadei',
+    synopsis: 'A group of high school friends unleashes an ancient evil that has been responsible for brutal murders dating back 300 years.',
+    length: '1hr47min',
+    country: 'US',
+    image: '/movies/fearstreet1994.png'
+  },
+  {
+    title: 'Sorority House Massacre',
+    genre: 'Slasher',
+    year: 1986,
+    director: 'Carol Frank',
+    writer: 'Carol Frank',
+    synopsis: 'A woman is stalked by a killer who she seems to have a psychic connection with.',
+    length: '1hr13min',
+    country: 'US',
+    image: '/movies/sororityhousemassacre.png'
+  },
+  {
+    title: 'Friday the 13th Part III',
+    genre: 'Slasher',
+    year: 1982,
+    director: 'Steve Miner',
+    writer: 'Martin Kitrosser, Carol Watson',
+    synopsis: 'Jason terroizes a group of teenagers spending a weekend in a cabin near Camp Crystal Lake. He finally finds his hockey mask and ditches the burlap sack.',
+    length: '1hr35min',
+    country: 'US',
+    image: '/movies/fridaypart3.png'
+  },
+  {
+    title: 'The House That Screamed',
+    genre: 'Slasher, Thriller',
+    year: 1969,
+    director: 'Narciso Ibáñez Serrador',
+    writer: 'Narciso Ibáñez Serrador',
+    synopsis: 'Students begin to dissapear at a school for wayward girls run by a headmistress with an iron fist.',
+    length: '1hr34min',
+    country: 'Spain',
+    image: '/movies/housethatscreamed.png'
+  },
+  {
+    title: 'Count Dracula\'s Great Love',
+    genre: 'Vampire',
+    year: 1973,
+    director: 'Javier Agguire',
+    writer: 'Javier Agguire, Alberto S. Insua, Paul Naschy',
+    synopsis: 'A group of friends stay in an abandoned sanitarium. They begin to fall victim to a mysterious vampire. One of them must choose between life and immortality as Dracula\'s mistress.',
+    length: '1hr25min',
+    country: 'Spain',
+    image: '/movies/draculasgreatlove.png'
+  },
+  {
+    title: 'The Devil\'s Wedding Night',
+    genre: 'Vampire',
+    year: 1973,
+    director: 'Luigi Batzella, Joe D\'Amato',
+    writer: 'Mark Danby, Ralph Zucker',
+    synopsis: 'Lady Dracula uses an ancient ring to lure beautiful girls to her castle where she murders them to bathe in their blood.',
+    length: '1hr23min',
+    country: 'Italy',
+    image: '/movies/devilswedding.png'
+  },
+  {
+    title: 'Legacy of Satan',
+    genre: 'Occultism, Satanism',
+    year: 1973,
+    director: 'Gerard Damiano',
+    writer: 'Gerard Damiano',
+    synopsis: 'A satanic cult choses an unwitting girl as its new victim.',
+    length: '1hr8min',
+    country: 'US',
+    image: '/movies/legacyofsatan.png'
+  },
+  {
+    title: 'Hellraiser',
+    genre: 'Horror, Thriller',
+    year: 1987,
+    director: 'Clive Barker',
+    writer: 'Clive Barker',
+    synopsis: 'A woman begins killing in order to ressurect her deceased brother in-law who she had an affair with years earlier.',
+    length: '1hr34min',
+    country: 'US',
+    image: '/movies/hellraiser.png'
+  },
+  {
     title: 'Psychomania',
     genre: 'Occultism, Satanism',
     year: 1973,
     director: 'Don Sharp',
     writer: 'Arnaud d\'Usseau, Julian Zimet',
-    synopsis: 'A biker gang discovers the secret becoming the undead and terrorize an English village',
+    synopsis: 'A biker gang discovers the secret becoming the undead and terrorize an English village.',
     length: '1hr25min',
     country: 'UK',
     image: '/movies/psychomania.png'
@@ -33,7 +198,7 @@ const movies = [
     image: '/movies/devilsrain.png'
   },
   {
-    title: 'Baker, Butcher, Nightmare Maker',
+    title: 'Butcher, Baker, Nightmare Maker',
     genre: 'Slasher, Queer',
     year: 1981,
     director: 'William Asher',
@@ -236,17 +401,6 @@ const movies = [
     length: '1973',
     country: 'US',
     image: '/movies/exorcist.png'
-  },
-  {
-    title: 'Halloween',
-    genre: 'Slasher',
-    year: 1978,
-    director: 'John Carpenter',
-    writer: 'John Carpenter, Debra Hill',
-    synopsis: 'Michael Myers escapes from a mental hospital and returns to his home town 15 years after murdering his sister on Halloween night.',
-    length: '1hr31min',
-    country: 'US',
-    image: '/movies/halloween.png'
   },
   {
     title: 'Carrie',
